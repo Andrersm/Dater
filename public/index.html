@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Escolha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container" id="question1">
+    <h1>Escolha sabiamente!</h1>
+    <button id="option1">Role Misterioso</button>
+    <p>OU</p>
+    <button id="option2">R$20</button>
+  </div>
+  <div class="container" id="question2" style="display: none;">
+    <h1>Você escolheu sabiamente! Agora, só nos resta saber</h1>
+    <button id="option3">QUANDO?</button>
+  </div>
+  <div class="container" id="final" style="display: none;">
+    <img id="finalImage" src="meiaNoite.png" alt="Imagem final">
+    <h1 id="finalMessage">Brincadeira	&#128517;!</h1>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
