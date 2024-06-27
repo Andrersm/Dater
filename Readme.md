@@ -1,4 +1,4 @@
-Claro! Vamos ajustar o README conforme suas instruções:
+
 
 ---
 
